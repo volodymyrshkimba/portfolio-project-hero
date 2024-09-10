@@ -5,6 +5,7 @@
   background-size: 310px 812px;
   padding-top: 281px;
   padding-bottom: 32px;
+  position: relative;
 }
 
 .hero-title {
@@ -50,6 +51,23 @@
   width: 178px;
 }
 
+@media screen and (max-width: 767px) {
+  .burger-btn {
+    width: 55px;
+    height: 55px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+  }
+  .burger-btn-icon {
+    width: 55px;
+    height: 55px;
+    fill: #fafafa;
+  }
+}
+
 @media screen and (max-width: 358px) {
   .hero-title {
     margin-bottom: 162px;
@@ -69,6 +87,10 @@
       linear-gradient(270deg, #1c1d20 49.68%, #69292d 67.73%, #ed3b44 100%);
     background-size: 581px 1024px;
     padding-top: 300px;
+  }
+
+  .burger-btn {
+    display: none;
   }
 
   .hero-title {
