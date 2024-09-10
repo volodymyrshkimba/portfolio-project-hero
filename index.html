@@ -12,13 +12,18 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/portfolio-project-hero/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/portfolio-project-hero/assets/vendor-Br2ZivKX.js">
-    <link rel="stylesheet" crossorigin href="/portfolio-project-hero/assets/index-CV6XcfbP.css">
+    <link rel="modulepreload" crossorigin href="/portfolio-project-hero/assets/vendor-4E3GQ_JN.js">
+    <link rel="stylesheet" crossorigin href="/portfolio-project-hero/assets/index-Bw47mc2M.css">
   </head>
   <body>
     <main>
       <section class="hero">
   <div class="container">
+    <button type="button" class="burger-btn">
+      <svg class="burger-btn-icon">
+        <use href="/portfolio-project-hero/assets/icons-DGgx9QzL.svg#icon-arrow-down"></use>
+      </svg>
+    </button>
     <h1 class="hero-title">
       Hello. <br />I’m Fullstack developer Lloyd Jefferson.
     </h1>
@@ -71,44 +76,60 @@
 </section>
 
       <section class="about-me">
-  <div class="container">
-    <div class="about-me-swiper-wrapper swiper">
-      <ul class="about-me-swiper-list swiper-wrapper">
-        <li class="about-me-swiper-item swiper-slide">HTML/CSS</li>
-        <li class="about-me-swiper-item swiper-slide">JavaScript</li>
-        <li class="about-me-swiper-item swiper-slide">React</li>
-        <li class="about-me-swiper-item swiper-slide">Node.js</li>
-        <li class="about-me-swiper-item swiper-slide">React Native</li>
-        <li class="about-me-swiper-item swiper-slide">Soft skills</li>
-      </ul>
-      <button class="about-me-swiper-btn swiper-button-next" type="button">
-        <svg class="about-me-swiper-btn-icon">
-          <use href="../img/sprite.svg#arrow-narrow-right"></use>
-        </svg>
-      </button>
-    </div>
+  <div class="swiper swiper-ab">
+    <ul class="swiper-wrapper swiper-wrapper-ab">
+      <li class="swiper-slide">
+        <div class="swiper-slide-ab">HTML/CSS</div>
+      </li>
+      <li class="swiper-slide">
+        <div class="swiper-slide-ab">JavaScript</div>
+      </li>
+      <li class="swiper-slide">
+        <div class="swiper-slide-ab">React</div>
+      </li>
+      <li class="swiper-slide">
+        <div class="swiper-slide-ab">Node.js</div>
+      </li>
+      <li class="swiper-slide">
+        <div class="swiper-slide-ab">React Native</div>
+      </li>
+      <li class="swiper-slide">
+        <div class="swiper-slide-ab">Soft skills</div>
+      </li>
+      <li class="swiper-slide">
+        <div class="swiper-slide-ab">Vue.js</div>
+      </li>
+    </ul>
+
+    <div class="swiper-button-next swiper-button-next-ab"></div>
   </div>
 </section>
-<div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    ...
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
-</div>
 
     </main>
+    <div class="mob-menu">
+  <div class="mob-menu-container">
+    <button class="mob-menu-btn-close mob-link-js" type="button">
+      <svg class="mob-menu-btn-icon">
+        <use href="../img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <ul class="mob-menu-list">
+      <li class="mob-menu-link mob-link-js">
+        <a href="#about-me">About me</a>
+      </li>
+      <li class="mob-menu-link mob-link-js">
+        <a href="#benefits">Benefits</a>
+      </li>
+      <li class="mob-menu-link mob-link-js">
+        <a href="#projects">Projects</a>
+      </li>
+      <li class="mob-menu-link mob-link-js"><a href="#faq">FAQ</a></li>
+    </ul>
+    <a class="mob-menu-link-order mob-link-js" href="#work-together"
+      >Order the project</a
+    >
+  </div>
+</div>
+
   </body>
 </html>
