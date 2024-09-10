@@ -1,13 +1,23 @@
 // core version + navigation, pagination modules:
 import Swiper from 'swiper';
-import { Navigation } from 'swiper/modules';
+import { Keyboard, Navigation, Mousewheel } from 'swiper/modules';
 // import Swiper and modules styles
 
 // init Swiper:
-const swiper = new Swiper('.swiper', {
-	modules: [Navigation],
+const swiper = new Swiper('.swiper-ab', {
+	modules: [Navigation, Keyboard, Mousewheel],
 	direction: 'horizontal',
 	loop: true,
+	grabCursor: true,
+	keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+	},
+	mousewheel: {
+		enabled: true,
+		forceToAxis: true,
+		thresholdDelta: 5,
+	},
 	
     navigation: {
 		 nextEl: '.swiper-button-next-ab',
@@ -31,3 +41,8 @@ const swiper = new Swiper('.swiper', {
  	 },
   },
 );
+
+
+
+
+

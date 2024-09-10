@@ -17,6 +17,7 @@
 }
 
 .swiper-ab .swiper-slide-active {
+  transition: background-color 500ms ease-out;
   background-color: #ed3b44;
   border-radius: 100%;
   border: none;
@@ -27,6 +28,12 @@
   background-image: url('../img/arrow-narrow-right.svg');
   background-repeat: no-repeat;
   background-position: center;
+  background-color: transparent;
+  border: none;
+}
+
+.swiper-button-next-ab:hover {
+  border-color: #ed3b44;
 }
 
 @media screen and (max-width: 787px) {
